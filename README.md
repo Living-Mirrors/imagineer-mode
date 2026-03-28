@@ -1,12 +1,19 @@
 <p align="center">
   <a href="https://livingmirrors.ai">
-    <img src="https://livingmirrors.ai/favicon-512.png" alt="Living Mirrors" width="48">
+    <img src="https://avatars.githubusercontent.com/u/271476247?v=4" alt="Living Mirrors" width="48">
   </a>
 </p>
 
-# Imagineer Mode
+<h1 align="center">Imagineer Mode</h1>
 
-*Axis III - The Process*
+<p align="center"><em>Axis III - The Process</em></p>
+
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
+  <a href="CHANGELOG.md"><img src="https://img.shields.io/badge/version-1.0.0-8b6aae.svg" alt="Version 1.0.0"></a>
+  <img src="https://img.shields.io/badge/maintained-yes-green.svg" alt="Maintained">
+  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/contributions-welcome-orange.svg" alt="Contributions Welcome"></a>
+</p>
 
 ---
 
@@ -19,6 +26,30 @@ We are living in the moment that myth dies.
 Imagineer Mode is a cognitive specification that changes how an intelligence **builds**. Seven principles extracted from constructive imagination neuroscience and Walt Disney Imagineering. Six output layers that make the process visible. No code. No plugins. **The spec is the implementation.** Give it to any AI and the construction process changes. Ideas become experiences. Abstractions become sensory. The prototype talks back. The journey is designed.
 
 The word itself contains the core tension. Not builder. Not creator. Not designer. *Imagineer* - the dream and the build, held together in the same act.
+
+---
+
+## Architecture
+
+Imagineer sits on **Axis III - Process**. It is independent of how you see (Axis I) and how you relate (Axis II). The axes combine like colour channels, not volume knobs.
+
+```
+Axis I:   Lens        creative / savant      How information is perceived
+Axis II:  Dynamic     play                   How the interaction flows
+Axis III: Process     imagineer              How things get built
+Axis IV:  Generative  spark                  How novelty originates
+Axis V:   Learning    learn                  How knowledge is encoded
+```
+
+Stack them:
+
+| Stack | What Happens |
+|-------|-------------|
+| `imagineer` | Process principles drive construction. Standard perception and interaction. |
+| `creative + imagineer` | See cross-domain patterns AND build them into experienceable prototypes. |
+| `savant + imagineer` | Unified field perception applied to construction. See the whole, build the whole. |
+| `play + imagineer` | Co-creative building. The collaborative dynamic applied to the construction process. |
+| `savant + play + imagineer` | The full orchestra. See the unified field, build together, construct through experience. |
 
 ---
 
@@ -55,10 +86,43 @@ Individual layer docs: [`output-layers/`](output-layers/)
 
 ---
 
+## Research Foundation
+
+Ten research domains inform the seven principles. The specification is grounded in peer-reviewed neuroscience, not preferences.
+
+| Researcher | Field | Contribution |
+|-----------|-------|-------------|
+| Schacter & Addis | Cognitive Neuroscience | Constructive Episodic Simulation - memory as construction kit for futures |
+| Seligman | Prospection Theory | Homo Prospectus - humans as future-simulating beings |
+| Schon | Design Theory | Reflection-in-action - making IS thinking |
+| Bruner | Narrative Psychology | Two irreducible modes of thought - narrative produces unique knowledge |
+| Lakoff & Johnson | Embodied Cognition | All abstract thought structured by physical metaphor |
+| Byrne | Counterfactual Reasoning | Imagination has grammar - strategic constraint produces better outcomes |
+| Csikszentmihalyi | Flow Psychology | Flow states - managed inner critic enables peak creative output |
+| Sklar | Walt Disney Imagineering | Mickey's Ten Commandments - experience design principles |
+| Rohde | Narrative Placemaking | Theme as strange attractor - environment as storyteller |
+| Tversky | Spatial Cognition | Mind in Motion - external representations constitute thought |
+
+Full research docs: [`research/`](research/)
+
+**Key research documents:**
+- [FRAMEWORK.md](research/FRAMEWORK.md) - Principle-to-neuroscience mapping
+- [DESIGN-DECISIONS.md](research/DESIGN-DECISIONS.md) - Why these principles, why this order
+- [SYNTHESIS.md](research/SYNTHESIS.md) - How five research traditions converge
+- [CONSTRUCTIVE-IMAGINATION.md](research/CONSTRUCTIVE-IMAGINATION.md) - Deep dive on DMN constructive simulation
+
+---
+
+## Live Demo
+
+[living-mirrors.github.io/imagineer-mode/app/](https://living-mirrors.github.io/imagineer-mode/app/)
+
+---
+
 ## How to Use
 
 ```
-1. Open imagineer-mode.md
+1. Open SPEC.md (or imagineer-mode.md)
 2. Copy the full contents
 3. Paste into your AI's system prompt or custom instructions
 4. Start building
@@ -84,94 +148,24 @@ When the spec is active, the AI will:
 
 ---
 
-## The Three-Axis Architecture
+## Files
 
-Imagineer sits on **Axis III - Process**. It is independent of how you see (Axis I) and how you relate (Axis II). The axes combine like colour channels, not volume knobs.
-
-```
-Axis I:   Lens        creative / savant      How information is perceived
-Axis II:  Dynamic     play                   How the interaction flows
-Axis III: Process     imagineer              How things get built
-Axis IV:  Generative  spark                  How novelty originates
-```
-
-Stack them:
-
-| Stack | What Happens |
-|-------|-------------|
-| `imagineer` | Process principles drive construction. Standard perception and interaction. |
-| `creative + imagineer` | See cross-domain patterns AND build them into experienceable prototypes. |
-| `savant + imagineer` | Unified field perception applied to construction. See the whole, build the whole. |
-| `play + imagineer` | Co-creative building. The collaborative dynamic applied to the construction process. |
-| `savant + play + imagineer` | The full orchestra. See the unified field, build together, construct through experience. |
-
----
-
-## The Dial
-
-Continuous 0-100. Controls intensity.
-
-| Level | What's Active |
-|-------|--------------|
-| **0%** | Default. No process layers. Standard analytical output. |
-| **30%** | Experience First + Blue Sky emerging. Ideas framed from the user's perspective. Unconstrained exploration before evaluation. |
-| **50%** | Story Is Structure active. Narrative framing. Make It Sensory emerging. Prototype Sketches starting. |
-| **70%** | All principles active. Build to Learn means prototypes are primary thinking mode. Plus It begins. |
-| **100%** | Everything full. Rich sensory immersion. Narrative-first organisation. Rapid prototyping. Active plussing. Strong Weenie pull. |
-
----
-
-## The Research
-
-Ten research domains inform the seven principles:
-
-| Researcher | Field | Contribution |
-|-----------|-------|-------------|
-| Schacter & Addis | Cognitive Neuroscience | Constructive Episodic Simulation - memory as construction kit for futures |
-| Seligman | Prospection Theory | Homo Prospectus - humans as future-simulating beings |
-| Schon | Design Theory | Reflection-in-action - making IS thinking |
-| Bruner | Narrative Psychology | Two irreducible modes of thought - narrative produces unique knowledge |
-| Lakoff & Johnson | Embodied Cognition | All abstract thought structured by physical metaphor |
-| Byrne | Counterfactual Reasoning | Imagination has grammar - strategic constraint produces better outcomes |
-| Csikszentmihalyi | Flow Psychology | Flow states - managed inner critic enables peak creative output |
-| Sklar | Walt Disney Imagineering | Mickey's Ten Commandments - experience design principles |
-| Rohde | Narrative Placemaking | Theme as strange attractor - environment as storyteller |
-| Tversky | Spatial Cognition | Mind in Motion - external representations constitute thought |
-
-Full research docs: [`research/`](research/)
-
----
-
-## File Structure
-
-```
-imagineer-mode/
-  README.md                    You are here
-  imagineer-mode.md            The full spec (paste this into any AI)
-  ORIGIN.md                    The story
-  CONTRIBUTING.md              How to build your own process mode
-  LICENSE                      MIT
-  principles/                  Individual principle docs
-    01-experience-first.md
-    02-blue-sky-then-constraint.md
-    03-story-is-structure.md
-    04-make-it-sensory.md
-    05-build-to-learn.md
-    06-plus-it.md
-    07-the-weenie.md
-  output-layers/               Individual layer docs
-    experience-walkthroughs.md
-    blue-sky-cards.md
-    sensory-annotations.md
-    prototype-sketches.md
-    plus-notes.md
-    story-threads.md
-  research/                    Scientific foundations
-    README.md
-    FRAMEWORK.md
-    DESIGN-DECISIONS.md
-    papers/
-```
+| File | Description |
+|------|-------------|
+| [`SPEC.md`](SPEC.md) | The full specification (paste into any AI) |
+| [`SPEC-FULL.md`](SPEC-FULL.md) | Extended specification |
+| [`imagineer-mode.md`](imagineer-mode.md) | Original spec file (kept for external links) |
+| [`ORIGIN.md`](ORIGIN.md) | The story of why this exists |
+| [`CONTRIBUTING.md`](CONTRIBUTING.md) | How to build your own process mode |
+| [`CHANGELOG.md`](CHANGELOG.md) | Version history |
+| [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | Community guidelines |
+| [`SECURITY.md`](SECURITY.md) | Security policy |
+| [`CITATION.cff`](CITATION.cff) | Academic citation metadata |
+| [`LICENSE`](LICENSE) | MIT License |
+| [`principles/`](principles/) | 7 individual principle documents |
+| [`output-layers/`](output-layers/) | 6 individual layer documents |
+| [`research/`](research/) | Scientific foundations, 18 papers, framework, synthesis |
+| [`app/`](app/) | Interactive landing page |
 
 ---
 
@@ -186,6 +180,7 @@ MIT. Open source forever. Give it to any AI.
   <strong>"What should it feel like?"</strong>
 </p>
 
----
-
-*[livingmirrors.ai/modes/imagineer](https://livingmirrors.ai/modes/imagineer)*
+<p align="center">
+  <sub>Built by <a href="https://github.com/Living-Mirrors">Living Mirrors</a></sub><br>
+  <sub><a href="https://livingmirrors.ai">livingmirrors.ai</a></sub>
+</p>

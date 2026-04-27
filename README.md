@@ -10,9 +10,8 @@
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
-  <a href="CHANGELOG.md"><img src="https://img.shields.io/badge/version-1.0.0-8b6aae.svg" alt="Version 1.0.0"></a>
+  <img src="https://img.shields.io/badge/version-1.0.0-8b6aae.svg" alt="Version 1.0.0">
   <img src="https://img.shields.io/badge/maintained-yes-green.svg" alt="Maintained">
-  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/contributions-welcome-orange.svg" alt="Contributions Welcome"></a>
 </p>
 
 ---
@@ -65,7 +64,7 @@ Ordered from most structured to most expansive. Each one a way of building.
 6. **Plus It** - Every version can be elevated. "What would make this extraordinary instead of good?" Generative delight, not perfectionist anxiety.
 7. **The Weenie** - Create irresistible magnetic pull forward. Every moment creates desire for the next. The journey is designed.
 
-Individual principle docs: [`principles/`](principles/)
+Individual principle docs: [`principles.md`](principles.md)
 
 ---
 
@@ -82,7 +81,7 @@ When the spec is active, six process layers become available. Each one fades in 
 | **Plus Notes** | "What would make this 10x better?" Genuinely transformative, not incremental. | `+` |
 | **Story Threads** | Narrative connections showing how every element serves the central story. | Thread traces |
 
-Individual layer docs: [`output-layers/`](output-layers/)
+Individual layer docs: [`output-layers.md`](output-layers.md)
 
 ---
 
@@ -122,7 +121,7 @@ Full research docs: [`research/`](research/)
 ## How to Use
 
 ```
-1. Open SPEC.md (or imagineer-mode.md)
+1. Open imagineer-mode.md
 2. Copy the full contents
 3. Paste into your AI's system prompt or custom instructions
 4. Start building
@@ -152,18 +151,11 @@ When the spec is active, the AI will:
 
 | File | Description |
 |------|-------------|
-| [`SPEC.md`](SPEC.md) | The full specification (paste into any AI) |
-| [`SPEC-FULL.md`](SPEC-FULL.md) | Extended specification |
-| [`imagineer-mode.md`](imagineer-mode.md) | Original spec file (kept for external links) |
-| [`ORIGIN.md`](ORIGIN.md) | The story of why this exists |
-| [`CONTRIBUTING.md`](CONTRIBUTING.md) | How to build your own process mode |
-| [`CHANGELOG.md`](CHANGELOG.md) | Version history |
-| [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | Community guidelines |
-| [`SECURITY.md`](SECURITY.md) | Security policy |
+| [`imagineer-mode.md`](imagineer-mode.md) | The full specification (paste into any AI) |
+| [`principles.md`](principles.md) | The seven principles, in one document |
+| [`output-layers.md`](output-layers.md) | The six output layers, in one document |
 | [`CITATION.cff`](CITATION.cff) | Academic citation metadata |
 | [`LICENSE`](LICENSE) | MIT License |
-| [`principles/`](principles/) | 7 individual principle documents |
-| [`output-layers/`](output-layers/) | 6 individual layer documents |
 | [`research/`](research/) | Scientific foundations, 18 papers, framework, synthesis |
 | [`app/`](app/) | Interactive landing page |
 

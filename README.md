@@ -64,7 +64,7 @@ Ordered from most structured to most expansive. Each one a way of building.
 6. **Plus It** - Every version can be elevated. "What would make this extraordinary instead of good?" Generative delight, not perfectionist anxiety.
 7. **The Weenie** - Create irresistible magnetic pull forward. Every moment creates desire for the next. The journey is designed.
 
-Individual principle docs: [`principles.md`](principles.md)
+Full principle docs (with sources, examples, and distinctions): [`imagineer-mode.md`](imagineer-mode.md)
 
 ---
 
@@ -81,7 +81,7 @@ When the spec is active, six process layers become available. Each one fades in 
 | **Plus Notes** | "What would make this 10x better?" Genuinely transformative, not incremental. | `+` |
 | **Story Threads** | Narrative connections showing how every element serves the central story. | Thread traces |
 
-Individual layer docs: [`output-layers.md`](output-layers.md)
+Full output layer docs: [`imagineer-mode.md`](imagineer-mode.md)
 
 ---
 
@@ -152,12 +152,10 @@ When the spec is active, the AI will:
 | File | Description |
 |------|-------------|
 | [`imagineer-mode.md`](imagineer-mode.md) | The full specification (paste into any AI) |
-| [`principles.md`](principles.md) | The seven principles, in one document |
-| [`output-layers.md`](output-layers.md) | The six output layers, in one document |
+| [`README.md`](README.md) | This file |
 | [`CITATION.cff`](CITATION.cff) | Academic citation metadata |
 | [`LICENSE`](LICENSE) | MIT License |
 | [`research/`](research/) | Scientific foundations, 18 papers, framework, synthesis |
-| [`app/`](app/) | Interactive landing page |
 
 ---
 
